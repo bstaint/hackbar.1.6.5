@@ -1,0 +1,70 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+menu#firstMenuItem {margin-left: 88px; 
+}
+
+/* Fixed bug https://bugzilla.mozilla.org/show_bug.cgi?id=1037303 */
+toolbar#hackBarToolbar {
+ max-height: 1000px !important;
+ }
+ 
+ #hackBarToolbar{
+	-moz-appearance:none;
+	border-radius:10px;
+	border:1px solid green;
+ }
+ #hackBarTargetUrlReferrerField{
+	-moz-appearance:none;
+	border-radius:10px;
+	border:1px solid green;
+ }
+ 
+ #hackBarTargetUrlPostField{
+	-moz-appearance:none;
+	border-radius:10px;
+	border:1px solid green;
+ }
+ #hackBarTargetUrl{
+	-moz-appearance:none;
+	border-radius:10px;
+	border:1px solid green; 
+ }
+ menupopup{
+	-moz-appearance:none;
+ }
+ label{
+  -moz-appearance:none;
+ }
+ #hackBarPlusMinusSelection{
+  
+  border:none;
+ -moz-appearance:none;
+  
+ }
+ 
+toolbarbutton#hackBarWebButton { list-style-image: url("chrome://hackbar/skin/web.png");-moz-appearance:none;border-radius:10px; }
+toolbarbutton#hackBarCopyButton { list-style-image: url("chrome://hackbar/skin/load.png");-moz-appearance:none;border-radius:10px; }
+toolbarbutton#hackBarSplitButton { list-style-image: url("chrome://hackbar/skin/split.gif");-moz-appearance:none;border-radius:10px; }
+
+/* Button */
+toolbarbutton#hackBarToolbarButton { list-style-image: url("chrome://hackbar/skin/toolbar_button.png");-moz-appearance:none;border-radius:10px;border:1px solid green; }
+toolbarbutton.custombutton {-moz-image-region: rect( 0px 24px 24px  0px);}
+toolbarbutton.custombutton:hover {-moz-image-region: rect(24px 24px 48px  0px);}
+[iconsize="small"] toolbarbutton.custombutton {-moz-image-region: rect( 0px 40px 16px 24px);}
+[iconsize="small"] toolbarbutton.custombutton:hover {-moz-image-region: rect(24px 40px 40px 24px);}
+
+/* t.PRO */
+#enc{padding-left:5px;}
+toolbarbutton.hackBarQuickEncodeButton { list-style-image: url("chrome://hackbar/skin/quick1.png"); }
+toolbarbutton.hackBarQuickEncodeButton2 { list-style-image: url("chrome://hackbar/skin/quick2.png"); }
+toolbarbutton.hackBarQuickEncodeButton3 { list-style-image: url("chrome://hackbar/skin/quick3.png"); }
+.quick{margin-top:5px;}
+.adjust{font-size:9px;}
+.replace{font-size:12px;margin-left:8px;-moz-appearance:none;border:1px solid green;}
+#separator{height:3px;border-top:1px dashed grey;margin-top:5px;margin-bottom:9px;margin-left:3px;}
+#separator2{height:3px;border-left:1px dashed grey;margin-bottom:2px;margin-left:3px;margin-right:3px;}
+#separator3{height:3px;border-left:1px dashed grey;margin-bottom:2px;margin-left:3px;}
+.replace2{margin:0px;margin-left:6px;padding:0px;height:15px;font-size:12px;padding-left:2px;-moz-appearance:none;-moz-appearance:none;border:1px solid green;}
+#replace_holder{margin-left:3px;}
+#rlabel{margin-top:7px;}
+#adjustpanel{margin-right:3px;margin-top:2px;}
